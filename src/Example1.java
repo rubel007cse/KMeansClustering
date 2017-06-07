@@ -51,8 +51,11 @@ public class Example1 {
         System.out.println("Mean 3 is: "+mn3);
 
 
+        if(!(k1==mn1 && k2==mn2 && k3==mn3)) {
+            do_clustering(mn1, mn2, mn3, my_data);
+        }
 
-       // do_clustering(mn1,mn2, mn3, my_data);
+
 
 
     }
